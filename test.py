@@ -32,8 +32,9 @@ class Motorcycle(Vehicle):
             self.wheels = 3
         else:
             self.wheels = 2
-            self.doors = 0
-            self.enginetype = enginetype
+        # WHAT THE SPACING HERE, the following two lines are separate from the else!!
+        self.doors = 0
+        self.enginetype = enginetype
 
     def drive(self, speed):
         super().drive(speed)
@@ -42,6 +43,7 @@ class Motorcycle(Vehicle):
 # MY VEHICLES
 car1 = Car("gas")
 car2 = Car("electric")
+car3 = Car("gas")
 mc1 = Motorcycle("gas", True)
 
 print(mc1.wheels)
