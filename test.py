@@ -32,7 +32,7 @@ class Motorcycle(Vehicle):
             self.wheels = 3
         else:
             self.wheels = 2
-        # WHAT THE SPACING HERE, the following two lines are separate from the else!!
+        # WATCH THE SPACING HERE, the following two lines are separate from the else statement!!
         self.doors = 0
         self.enginetype = enginetype
 
